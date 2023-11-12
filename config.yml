@@ -1,0 +1,21 @@
+smtp_settings:
+  smtp_server: smtp.example.com
+  smtp_port: 587
+
+preset_addresses:
+  - email: morisono@protonmail.com
+    smtp_username: morisono_username
+    smtp_password: morisono_password
+  - email: morisonor@gmail.com
+    smtp_username: morisonor_username
+    smtp_password: morisonor_password
+
+preset_recipients:
+  - recipient1@example.com
+  - recipient2@example.com
+  - recipient3@example.com
+
+preset_subjects:
+  - "Subject for Email 1"
+  - "Subject for Email 2"
+  - "Subject for Email 3"
