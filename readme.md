@@ -123,3 +123,12 @@ If you encounter any issues during the installation or running of the program, h
     export NUMBAPRO_NVVM=/usr/local/cuda/nvvm/lib64/libnvvm.so
     export NUMBAPRO_LIBDEVICE=/usr/local/cuda/nvvm/libdevice/
     ```
+
+    
+### Acknowledgements
+
+These providers make this project possible:
+
+- https://huggingface.co/cyberagent/calm2-7b-chat
+
+- https://huggingface.co/datasets/wikipedia

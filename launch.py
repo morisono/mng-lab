@@ -22,9 +22,19 @@ def visualize_topics(topic_model, top_n_topics=14, width=500):
     topic_model.visualize_barchart(top_n_topics=top_n_topics, width=width)
 
 def web_ui():
+    inputs=[
+        gr.Number(label="Top N Topics", default=14),
+        gr.Number(label="Width", default=500)
+    ]
+    outputs=gr.Image()
+    examples = [
+        'data/demo1.txt'
+    ]
+
     gr.Interface(visualize_topics,
-                 inputs=[gr.inputs.Number(label="Top N Topics", default=14), gr.inputs.Number(label="Width", default=500)],
-                 outputs=gr.outputs.Image(),
+                 inputs=inputs,
+                 outputs=outputs,
+                 examples=examples,
                  live=True).launch()
 
 if __name__ == "__main__":
