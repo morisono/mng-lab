@@ -4,10 +4,10 @@ lastmod: 2023-11-9
 
 <div align='center'>
 
-# NLP Lab
+# MNG Lab
 </div>
 
-This program is designed to process and analyze natural language data, a subfield of artificial intelligence known as Natural Language Processing (NLP).
+This project aims to process and analyze natural language data, a subfield of artificial intelligence known as Natural Language Processing (NLP).
 
 ## Installation
 
